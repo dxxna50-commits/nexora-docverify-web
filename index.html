@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#081426">
+<title>NEXORA DOCVERIFY AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#071225;--panel:#0d1b31;--panel2:#10223b;--line:#203550;--text:#f3f8ff;--muted:#9aacc4;--cyan:#46e2dc;--blue:#6e9bff;--green:#62e6ad;--amber:#ffca78}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 10%,#102b4a 0,transparent 34%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff10}.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:.02em}.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid #46e2dc80;border-radius:12px;color:var(--cyan);font-size:24px;box-shadow:0 0 25px #46e2dc20}.brand small{display:block;font-size:10px;letter-spacing:.19em;color:var(--muted);font-weight:600}.links{display:flex;gap:30px;color:#b8c6da;font-size:14px}.navbtn,.btn{border:0;border-radius:10px;padding:12px 18px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.2s}.navbtn,.primary{background:var(--cyan);color:#061425}.btn:hover,.navbtn:hover{transform:translateY(-2px);filter:brightness(1.06)}.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center;padding:76px 0 80px}.eyebrow{display:inline-flex;gap:9px;align-items:center;border:1px solid #46e2dc40;background:#46e2dc0d;color:var(--cyan);padding:7px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.13em}.dot{width:7px;height:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 10px var(--cyan)}h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.15;margin:0}h1{font-size:clamp(40px,5vw,65px);letter-spacing:-.045em;margin:22px 0}h1 span{color:var(--cyan)}.lead{font-size:17px;color:#aabbd1;max-width:570px}.actions{display:flex;gap:12px;margin:28px 0 25px;flex-wrap:wrap}.primary{background:var(--cyan)}.secondary{border:1px solid #3b506a;background:#0b1a2d;color:#e9f2ff}.trust{display:flex;gap:18px;flex-wrap:wrap;color:#8fa4bd;font-size:12px}.trust span:before{content:"✓";color:var(--green);margin-right:7px}.preview{border:1px solid #30435d;background:linear-gradient(145deg,#122540,#0b172a);padding:22px;border-radius:22px;box-shadow:0 30px 100px #0006;position:relative}.preview:before{content:"";position:absolute;inset:-1px;border-radius:22px;background:linear-gradient(140deg,#46e2dc30,transparent 45%,#6e9bff20);pointer-events:none}.prevhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.muted{color:var(--muted)}.status{font-size:11px;color:var(--green);background:#62e6ad12;border:1px solid #62e6ad38;padding:5px 9px;border-radius:30px}.uploadbox{border:1px dashed #4d718b;background:#0a192c;border-radius:13px;padding:22px;text-align:center}.uploadicon{font-size:28px;color:var(--cyan)}.filechip{display:flex;align-items:center;gap:12px;background:#152943;border:1px solid #2d4562;padding:13px;border-radius:12px;margin-top:13px;text-align:left}.fileicon{background:#e86b7d18;color:#ff9eaa;padding:9px;border-radius:8px}.fileinfo{flex:1;font-size:12px}.fileinfo b{display:block;font-size:13px}.tag{font-size:10px;border-radius:5px;background:#62e6ad18;color:var(--green);padding:4px 7px}.minirow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:13px}.mini{background:#0a192c;border:1px solid #203751;border-radius:11px;padding:12px}.mini strong{font-family:Manrope;font-size:20px;display:block}.mini span{font-size:10px;color:#9aacc4}.section{padding:70px 0;border-top:1px solid #ffffff0c}.sectionhead{text-align:center;max-width:650px;margin:0 auto 35px}.sectionhead h2{font-size:clamp(28px,4vw,40px);margin-bottom:13px}.sectionhead p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:linear-gradient(145deg,#10213a,#0b182b);border:1px solid #243a55;padding:24px;border-radius:16px}.cardicon{display:grid;place-items:center;width:45px;height:45px;background:#46e2dc12;color:var(--cyan);border-radius:12px;font-size:22px;margin-bottom:18px}.card h3{font-size:17px;margin-bottom:9px}.card p{font-size:14px;color:var(--muted);margin:0}.verifygrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;align-items:start}.verifyintro h2{font-size:38px;margin:14px 0}.verifyintro p{color:var(--muted)}.panel{background:#0d1b31;border:1px solid #2a405c;border-radius:18px;padding:24px}.panel h3{margin-bottom:7px}.drop{border:1px dashed #52708d;border-radius:13px;padding:27px 18px;text-align:center;margin:20px 0;background:#09172a}.drop.drag{border-color:var(--cyan);background:#46e2dc0c}.drop input{max-width:100%;margin-top:12px;color:#aebed2}.small{font-size:12px;color:var(--muted)}.checkrow{display:flex;align-items:center;gap:10px;padding:9px 0;color:#c3d1e3;font-size:14px}.checkrow input{accent-color:var(--cyan)}.full{width:100%;margin-top:12px}.results{display:none;margin-top:20px}.resulttop{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.resultstats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}.stat{border:1px solid #243a55;background:#09172a;padding:13px;border-radius:10px}.stat b{font-size:23px;display:block;font-family:Manrope}.stat span{font-size:11px;color:var(--muted)}.flag{padding:12px 13px;border-radius:9px;margin:8px 0;background:#ffca7810;border:1px solid #ffca7830;color:#ffe0a7;font-size:13px}.ok{background:#62e6ad0d;border-color:#62e6ad30;color:#a7f3cf}.error{color:#ffabb4}.footer{padding:30px 0;border-top:1px solid #ffffff12;color:#8296af;font-size:12px}.footerinner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.notice{font-size:12px;color:#8398b3;margin-top:14px}.hidden{display:none!important}
+@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;padding:52px 0}.preview{max-width:600px}.verifygrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.section{padding:54px 0}}@media(max-width:480px){.navbtn{padding:10px;font-size:12px}.brand{font-size:13px}.hero{gap:30px}.preview{padding:14px}.minirow,.resultstats{grid-template-columns:1fr}.panel{padding:17px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#home"><span class="mark">◈</span><span>NEXORA DOCVERIFY AI<small>DOCUMENT INTELLIGENCE</small></span></a>
+  <nav class="links"><a href="#home">Home</a><a href="#features">Features</a><a href="#how">How it works</a><a href="#verify">Verify</a></nav>
+  <a class="navbtn" href="#verify">Verify a Document ↗</a>
+</header>
+<main>
+<section class="wrap hero" id="home">
+ <div>
+  <div class="eyebrow"><span class="dot"></span> DOCUMENT VERIFICATION WORKSPACE</div>
+  <h1>Trust every document.<br><span>Verify with confidence.</span></h1>
+  <p class="lead">A smarter way to review PDF documents, check required information, and spot inconsistencies that may need a closer look.</p>
+  <div class="actions"><a class="btn primary" href="#verify">Start Verification <span>→</span></a><a class="btn secondary" href="#features">Explore Features</a></div>
+  <div class="trust"><span>PDF text extraction</span><span>Required-field checks</span><span>Human review support</span></div>
+ </div>
+ <div class="preview">
+  <div class="prevhead"><div><b>Verification workspace</b><div class="small">A quick look at the review flow</div></div><span class="status">● READY</span></div>
+  <div class="uploadbox"><div class="uploadicon">⇧</div><b>Upload your PDF</b><div class="small">Extract text and inspect key fields</div>
+   <div class="filechip"><span class="fileicon">PDF</span><span class="fileinfo"><b>Applicant_Document.pdf</b><span class="muted">Example workflow preview</span></span><span class="tag">DEMO</span></div>
+  </div>
+  <div class="minirow"><div class="mini"><strong>01</strong><span>TEXT EXTRACTION</span></div><div class="mini"><strong>02</strong><span>FIELD CHECKS</span></div><div class="mini"><strong>03</strong><span>REVIEW FLAGS</span></div></div>
+ </div>
+</section>
+<section class="section" id="features"><div class="wrap">
+ <div class="sectionhead"><div class="eyebrow">BUILT FOR CLARITY</div><h2>Verification, made more organized.</h2><p>Turn a manual first-pass review into a clearer workflow, while keeping final decisions in human hands.</p></div>
+ <div class="cards">
+  <article class="card"><div class="cardicon">▤</div><h3>Smart PDF Extraction</h3><p>Read selectable text from uploaded PDFs directly in your browser, without sending the file to a server in this demo.</p></article>
+  <article class="card"><div class="cardicon">✓</div><h3>Required Field Checks</h3><p>Check for common identity and application fields and highlight details that appear to be missing.</p></article>
+  <article class="card"><div class="cardicon">⌕</div><h3>Consistency Review</h3><p>Compare extracted details across the PDFs you upload and flag differences for a person to review.</p></article>
+ </div>
+</div></section>
+<section class="section" id="how"><div class="wrap">
+ <div class="sectionhead"><div class="eyebrow">HOW IT WORKS</div><h2>Three simple steps</h2><p>Designed to help reviewers identify what needs attention sooner.</p></div>
+ <div class="cards">
+  <article class="card"><div class="cardicon">01</div><h3>Upload documents</h3><p>Select one or more text-based PDF documents from your device.</p></article>
+  <article class="card"><div class="cardicon">02</div><h3>Analyze information</h3><p>The browser extracts available text and checks selected required fields.</p></article>
+  <article class="card"><div class="cardicon">03</div><h3>Review findings</h3><p>Read missing-field and cross-document mismatch flags, then verify them manually.</p></article>
+ </div>
+</div></section>
+<section class="section" id="verify"><div class="wrap verifygrid">
+ <div class="verifyintro"><div class="eyebrow">TRY THE WORKSPACE</div><h2>Start a document review.</h2><p>Upload sample PDFs to run basic, rule-based checks. This browser demo processes text locally and does not upload your selected documents to a server.</p><p class="notice">Scanned PDFs that contain only images may not yield readable text. OCR and advanced AI fraud detection are not included in this demo.</p></div>
+ <div class="panel">
+  <h3>Document verification</h3><div class="small">Choose PDFs to analyze in this browser</div>
+  <div class="drop" id="drop"><div class="uploadicon">⇧</div><b>Drop PDF files here or choose files</b><div class="small">You can select more than one PDF</div><input type="file" id="files" accept="application/pdf,.pdf" multiple></div>
+  <div class="small">Check required fields</div>
+  <label class="checkrow"><input type="checkbox" value="name" checked> Applicant / full name</label>
+  <label class="checkrow"><input type="checkbox" value="dob" checked> Date of birth</label>
+  <label class="checkrow"><input type="checkbox" value="date" checked> Application / issue date</label>
+  <label class="checkrow"><input type="checkbox" value="id" > Identification number</label>
+  <button class="btn primary full" id="analyze">Analyze documents →</button>
+  <div id="message" class="notice" aria-live="polite"></div>
+  <div class="results" id="results"><hr style="border-color:#243a55;border-style:solid;border-width:1px 0 0;margin:22px 0"><div class="resulttop"><h3>Verification overview</h3><span class="status" id="status">COMPLETE</span></div><div class="resultstats"><div class="stat"><b id="docCount">0</b><span>PDFS READ</span></div><div class="stat"><b id="fieldCount">0/0</b><span>REQUIRED FIELDS FOUND</span></div><div class="stat"><b id="flagCount">0</b><span>REVIEW FLAGS</span></div></div><div id="findings"></div><div class="notice">These are basic rule-based checks, not proof of authenticity or fraud. Review flagged details manually.</div></div>
+ </div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footerinner"><span>◈ <b>NEXORA DOCVERIFY AI</b> · Document intelligence</span><span>Decision support only — flagged items require human review.</span></div></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+if(window.pdfjsLib){pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';}
+const input=document.getElementById('files'), drop=document.getElementById('drop'), message=document.getElementById('message'), results=document.getElementById('results');
+let chosenFiles=[];
+input.addEventListener('change',()=>{chosenFiles=Array.from(input.files||[]);message.textContent=chosenFiles.length?chosenFiles.length+' PDF file(s) selected.':'No files selected.';});
+drop.addEventListener('dragover',e=>{e.preventDefault();drop.classList.add('drag')});
+drop.addEventListener('dragleave',()=>drop.classList.remove('drag'));
+drop.addEventListener('drop',e=>{e.preventDefault();drop.classList.remove('drag');chosenFiles=Array.from(e.dataTransfer.files||[]).filter(f=>f.type==='application/pdf'||f.name.toLowerCase().endsWith('.pdf'));message.textContent=chosenFiles.length?chosenFiles.length+' PDF file(s) selected.':'Please drop PDF files.';});
+async function readPdf(file){if(!window.pdfjsLib)throw new Error('PDF reader library did not load. Check your internet connection and refresh the page.');const bytes=await file.arrayBuffer();const pdf=await pdfjsLib.getDocument({data:bytes}).promise;let text='';for(let p=1;p<=pdf.numPages;p++){const page=await pdf.getPage(p);const content=await page.getTextContent();text+=' '+content.items.map(x=>x.str).join(' ');}return {name:file.name,text:text.replace(/\s+/g,' ').trim()};}
+function extract(text,kind){let patterns={name:[/(?:applicant|full|candidate|student)?\s*name\s*[:\-]\s*([A-Z][A-Za-z.' -]{2,70})/i,/(?:name of applicant)\s*[:\-]\s*([A-Z][A-Za-z.' -]{2,70})/i],dob:[/(?:date of birth|dob|birth date)\s*[:\-]\s*([0-9]{1,2}[\/\-][0-9]{1,2}[\/\-][0-9]{2,4}|[A-Za-z]+\s+\d{1,2},?\s+\d{4})/i],date:[/(?:application date|issue date|date of application|date)\s*[:\-]\s*([0-9]{1,2}[\/\-][0-9]{1,2}[\/\-][0-9]{2,4}|[A-Za-z]+\s+\d{1,2},?\s+\d{4})/i],id:[/(?:id number|identification number|aadhaar|passport number|application id)\s*[:\-]\s*([A-Z0-9 -]{5,24})/i]};for(const p of (patterns[kind]||[])){const m=text.match(p);if(m)return m[1].trim().replace(/\s+/g,' ');}return '';}
+document.getElementById('analyze').addEventListener('click',async()=>{if(!chosenFiles.length){message.textContent='Please choose at least one PDF first.';return;}if(chosenFiles.some(f=>!(f.type==='application/pdf'||f.name.toLowerCase().endsWith('.pdf')))){message.textContent='Please select PDF files only.';return;}const checks=Array.from(document.querySelectorAll('.checkrow input:checked')).map(x=>x.value);message.textContent='Reading PDF text in your browser…';results.style.display='none';const button=document.getElementById('analyze');button.disabled=true;button.textContent='Analyzing…';try{const docs=[];for(const f of chosenFiles){docs.push(await readPdf(f));}const findings=[];let found=0,total=checks.length*docs.length;for(const d of docs){findings.push({type:'info',text:'<b>'+escapeHtml(d.name)+'</b>: '+(d.text.length?'Extracted '+d.text.length+' characters of selectable text.':'No selectable text found. This may be a scanned PDF and needs OCR.')});for(const k of checks){const value=extract(d.text,k);if(value){found++;}else{findings.push({type:'warn',text:'<b>'+escapeHtml(d.name)+'</b>: '+label(k)+' not detected. It may be absent or written in an unrecognized format.'});}}}
+if(docs.length>1){for(const k of checks){const values=docs.map(d=>extract(d.text,k));const present=values.filter(Boolean);if(present.length>1&&new Set(present.map(v=>v.toLowerCase())).size>1){findings.push({type:'warn',text:'Possible '+label(k).toLowerCase()+' mismatch across documents: '+present.map(escapeHtml).join(' · ')+'. Please review manually.'});}}}
+document.getElementById('docCount').textContent=docs.length;document.getElementById('fieldCount').textContent=found+'/'+total;document.getElementById('flagCount').textContent=findings.filter(f=>f.type==='warn').length;document.getElementById('status').textContent=findings.some(f=>f.type==='warn')?'REVIEW NEEDED':'CHECKS COMPLETE';document.getElementById('findings').innerHTML=findings.map(f=>'<div class="flag '+(f.type==='info'?'ok':'')+'">'+f.text+'</div>').join('');results.style.display='block';message.textContent='Analysis finished. Results are shown below.';results.scrollIntoView({behavior:'smooth',block:'nearest'});}catch(e){message.innerHTML='<span class="error">Could not analyze the PDF: '+escapeHtml(e.message)+'</span>';}finally{button.disabled=false;button.textContent='Analyze documents →';}});
+function label(k){return {name:'Applicant name',dob:'Date of birth',date:'Application / issue date',id:'Identification number'}[k]||k;}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+</script>
+</body></html>
